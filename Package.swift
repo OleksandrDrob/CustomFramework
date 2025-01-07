@@ -24,6 +24,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CustomFramework",
-            path: "Sources/CustomFramework.xcframework")
+            path: "Sources/CustomFramework.xcframework"),
+        .binaryTarget(
+            name: "iOSNativeSDK",
+            path: "Sources/iOSNativeSDK.xcframework")
     ]
 )
